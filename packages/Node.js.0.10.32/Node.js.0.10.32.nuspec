@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Node.js</id>
+    <version>0.10.32</version>
+    <title>Node.js</title>
+    <authors>Joyent, Inc.</authors>
+    <owners>Joyent, Inc.</owners>
+    <licenseUrl>https://raw.github.com/joyent/node/v0.10.32/LICENSE</licenseUrl>
+    <projectUrl>http://nodejs.org/</projectUrl>
+    <iconUrl>https://bitpay.com/img/js64.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</description>
+    <summary>Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications.</summary>
+    <releaseNotes>- npm: Update to 1.4.28
+- v8: fix a crash introduced by previous release (Fedor Indutny)
+- configure: add --openssl-no-asm flag (Fedor Indutny)
+- crypto: use domains for any callback-taking method (Chris Dickinson)
+- http: do not send `0\r\n\r\n` in TE HEAD responses (Fedor Indutny)
+- querystring: fix unescape override (Tristan Berger)
+- url: Add support for RFC 3490 separators (Mathias Bynens)</releaseNotes>
+    <copyright>© 2014 Joyent, Inc.</copyright>
+    <tags>nodejs exe javascript runtime server</tags>
+  </metadata>
+</package>
